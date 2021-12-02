@@ -1,9 +1,0 @@
-body {
-  background: linear-gradient(
-      -10deg,
-      #d9edf7 35%,
-      rgba(237, 202, 216, 0) 75%,
-      #ffd7e0
-    ),
-    radial-gradient(circle, #ffcae1 0, #daeafc 100%);
-}
