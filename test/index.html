@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      :root {
+        --colorOne: #ecebea;
+        --colorTwo: #fbff00;
+        --colorThree: #ec112f;
+        --colorFour: #00ff37;
+        --colorFive: #0099ff;
+        --deg: 10deg;
+        overflow: hidden;
+      }
+      body {
+        background: 
+          radial-gradient(at top left, var(--colorFive), transparent 50%),
+          radial-gradient(at top right, var(--colorFour), transparent 50%),
+          linear-gradient(var(--deg), var(--colorOne) 25%, var(--colorTwo) 70%, var(--colorThree) 10%),
+          var(--colorOne);
+
+
+        height: 100vh;
+        width: 50vw;
+      }
+    </style>
+  </head>
+  <body></body>
+</html>

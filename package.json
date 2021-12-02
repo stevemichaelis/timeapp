@@ -1,0 +1,28 @@
+{
+  "name": "timeapp",
+  "version": "1.0.0",
+  "description": "final backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stevemichaelis/timeapp.git"
+  },
+  "keywords": [
+    "time",
+    "gradient",
+    "color"
+  ],
+  "author": "Steve Michaelis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevemichaelis/timeapp/issues"
+  },
+  "homepage": "https://github.com/stevemichaelis/timeapp#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.14"
+  }
+}
